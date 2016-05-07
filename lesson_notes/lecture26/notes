@@ -1,0 +1,16 @@
+Balanced binary search tree
+    -binary search, linked structure, recusion, incrementally maintained data structure
+Rotations
+    -restricting time complexity to log(n), search
+    -balance factor of 1, strictest version
+    -AVL tree good for lots of retrievals
+    -Red Black trees are good for lots of insertions
+AVL tree has tight constraints
+    -prove mathematically that it insertion, removal, retrieval-log(n)
+Imbalance: height of left and right subtrees differs by at most one
+LL-Right, RR-Left, LR-left around left child then right around root, RL-right around right child then left around root
+One rotation is always sufficient to fix an out of balance tree, deterministic amount
+Removal:
+    -removing the bottom node would shorten that subtree, putting a higher tree out of balance because one of its heights was shortened and may be 2 off from the other subtree
+    -need to fix the nodes in the reverse order of traversal
+    -could do the iterative implementation recursively

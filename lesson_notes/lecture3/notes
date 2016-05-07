@@ -1,0 +1,8 @@
+Tuples
+    -immutable, heterogeneuos seqeunces
+    -enclosed by parentheses
+    -comma seperated
+Range
+    -immutable seqeunces of numbers
+    -give start, stop, optional step
+    -last element, stop, is not included

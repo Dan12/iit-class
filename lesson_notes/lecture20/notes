@@ -1,0 +1,25 @@
+priority queue
+    -extract the value with the highest priority
+    -heap is a specific implementation of a priority queue with a heirarchical data structure
+-heap
+    -root of a tree is greater than all of its subtrees (applies recusively down the subtrees)
+    -trees lend themselves very well to recursion
+    -heap will always be a complete tree (only bottom most layer is not fully fleshed out but filled in from left to right)
+    -maintaining the heap requires examining only at most the number of nodes in the longest branch of the tree
+    -N levels can contain an exponential number on nodes
+    -reheapifying to have a complete tree by putting the bottom rightmost node to the top and trickle down heapify
+    -Achieve the good runtime by limiting the API
+-Heapsort
+    -N*LogN sort time
+    -Good sort in terms of space efficiency
+    -Other sorts need more space
+-Iterative implementations can be messy
+    -what variables do I need to update for the next loop?
+    -can use a recursive alternative implementation
+-Recursive heapify
+    -compare the root to its children and swap root with largest child
+    -Behind the scenes
+        -calling the function over and over again
+        -Stackframe is initializing the local variables
+    -This implementation is less efficient than the iterative one (requires multiple activation records, multiple function calls)
+-To be space efficient it will be necessary to convert a naturally recursive function to an iterative function

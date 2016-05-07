@@ -1,0 +1,23 @@
+algorithms
+    -general
+    -implementable
+    -non ambiguity, predictable, concrete
+    -algorithms have to complete
+    -inputs, intermediate states, output
+    -a problem can be solved by many different algorithms
+    -analyze and compare algorithms
+    
+-algorithm metrics
+    -correctness
+        -perfect solutions take a long amount of time but estimations are good enough and much faster
+    -complexity
+        -10 lines vs 1 million lines
+    -exectution time
+        -something to consider as input grows in size
+    -memory/space requirements
+        -fast and space inneficient, or slower and constant memory
+    -Concurrency and parralelization
+
+-exectution time
+    -list, find-linear time
+    -dict, find-constant time

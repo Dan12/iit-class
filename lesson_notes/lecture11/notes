@@ -1,0 +1,16 @@
+array backed list-python list
+arrays have constant search time
+can ussume that append is a constant time operation
+
+__iter__   going though all elements in the container
+lists are iterable
+for loops make use of iterators
+iterators-each iterators keep track of its own state
+range operates like an iterable
+range computes next answer, instead of storing entire array
+
+yield:
+generator object
+when you call function the first time, returns generator
+next called goes up to yield statement and saves state
+next raises stop iteration at end to 

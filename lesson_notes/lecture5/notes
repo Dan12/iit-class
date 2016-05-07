@@ -1,0 +1,4 @@
+functions
+    -local assignments in functions create new values in the function
+    -python makes it difficult for you to modify global variables
+    

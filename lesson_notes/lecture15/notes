@@ -1,0 +1,8 @@
+individual pieces
+insertion and deletion are constant
+less efficient space wise, references to other nodes
+compromising space efficiency, space vs. time
+
+
+stacks and queues
+linked lists with well defined insertion and deletion points

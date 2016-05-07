@@ -1,0 +1,32 @@
+BSTrees overview
+    -RL->R around small, L around root
+    -**Know imbalances and fixes
+    -Del item can use recursive function down the right to find replacement node and rebalance on the way up
+Mapping Structures and Hashtables
+    -binary search tree implementation is a mapping structure
+    -dictionary like structure
+    -can't have same key
+    -one to one function
+    -in bst, we can't add kets of different types because we determined placement by comparators
+    -we need to compare keys of arbitrary type
+    -dictionary is constant time lookup, bst is log
+    -arrays have constant time lookup by index
+    -calculate an index based on a key, jumping to index and the value we are looking for will be there
+    -how to compute index from string
+        -define some function
+        -sums can't really work
+        -hash functions: numerical finger print
+        -python: id function->returns address in memory
+            -hash function->same number from same values
+            -map values to small array with modulus function
+    -map a key to an index in an array and put the value in that index
+    -problematic if hash function maps two keys to same index
+        -list of lists
+        -linked list of key value pairs
+        -binary search tree
+    -want very few collisions
+    -load factor very low (ratio of values and buckets)
+    -low load factor means short chains
+    -trading space for time complexity->way that the dictionary is implemented
+    -rehashing when table gets too large, expensive
+    

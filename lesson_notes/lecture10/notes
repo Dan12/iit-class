@@ -1,0 +1,24 @@
+Conclusion: binary sort's runtime increases in proportion to the number 
+of times the input size can be split into two (integer-sized) halves . I.e., 
+in proportion to the log(n), where n is the input size.
+
+bound growth of function by multiplying by a constant
+throw constants out the window
+we only need to know the growth function
+
+insertion sort
+    -start with sorted portion on the right
+    -move through and swap 
+    -worst case is in reverse order
+    -best case is sorted
+    -consider worst case scenario
+    -function = (n^2+n)/2
+    -O(n^2)
+    
+fixed number of instructions-constant
+linear
+logarithmic
+linearithmic (n*log(n))
+quadratic
+cubic
+exponential

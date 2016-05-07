@@ -1,0 +1,24 @@
+higher order function
+    -function that takes another function as an argument
+    -a function is an object
+    -passing reference to function object
+    -You can call function object
+    -lambda [inputs]: [function]
+    -lambda by itself is just a nameless function object (lambda x:x*2)
+some built in higher order functions
+    -sorted([vals])
+        -custom key flag that can be a function to set value of vals
+    -val=default
+    
+-python module system
+    -__name__
+    -if __name__=='__main__', then you are in the main file
+    -import [module_name]
+    -import specific functions
+        -from module import foo
+        
+Classes
+    -all data attributes are public in python
+        -no way to guard against it
+    -assiging value to object attirubte creates a local attribute in object
+    -call a method via an instance passes the instance itself

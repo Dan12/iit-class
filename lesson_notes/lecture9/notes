@@ -1,0 +1,9 @@
+algorithms and time complexity
+    -dictionary search time: constant search time, independant of number of items in dictionry
+    -list search time: linear search time, linear relationship between number of items in list and search time
+    -Time(N) is T(N) = time to search through list of size N
+    -Time complexity: relationship between time it take to process number of elements
+    -Assuming that indexing from lists is constant
+binary search
+    -eliminate as much of search domain as possible
+    -logarithmic time

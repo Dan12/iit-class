@@ -1,0 +1,16 @@
+Queues
+-Schedualing Jobs
+-First in, First out
+-Round robin schedualing, predicated by behavior of the queue
+-The data strucutre determines the order of the data structure
+-OS is dolling out work to processors, schedualing algorithm
+
+
+-Priority Queues
+-Before stack and queue, sequential data strucutres imposed a total ordering on their elements,
+    -Every element has a predetermined position
+-Stacks and Queues restrict the API, but internal ordering doesn't matter, no total ordering
+-Middle ground to restrict API and impose a different type of ordering
+-Priority Queue: everything that goes into the queue has a priority
+    -Everything goes in and then goes out in terms of their priority
+    -Things that have the highest priority get dueued first

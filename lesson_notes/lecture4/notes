@@ -1,0 +1,12 @@
+Dict
+    -mapping compund dict type
+    -Mutable structure that maps keys to values
+    -Hash tables (specific implementation structure)
+    -Keys have to be hashable
+    
+Set
+    -compound type
+    -unordered collection with no duplicates
+    -elements must also be hashable
+    -create from sequences with set()
+    -set literals with {...}

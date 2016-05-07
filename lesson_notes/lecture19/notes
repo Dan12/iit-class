@@ -1,0 +1,37 @@
+If we don't sort the priority queue
+-Max function: save index first time through, effectively caching the index
+-pop_max function: swap with the last element and delete the last element (constant time)
+-Use binary search to locate the maximum
+-Put the new element in the right place, but it takes O(n) to insert the element (O(n) + O(log(n)))
+
+-In a sorted list, every successive element has successors
+-Hierarchical structures
+-Binary trees
+    -Each node has two successors
+    -Leaves are nodes with no branches (no successors)
+-Tree for a priority queue
+-Maximum value at the top
+-Immediate values have to be small than it
+-A value is greater than all of its successors
+-The value that we are looking for is at the root
+
+-Adding a new element
+    -Assuming we can access the parent and the children
+    -New elemnt gets inserted as a new leaf
+        -Compare to the parent, parent should be greater than, if not, swap
+-Given N elements, log_2(n) layers
+-Removing Elements
+    -Move the rightmost element of the bottom layer to the hole
+    -Reverse addition
+    -Compare the value to both of its children and swap the appropriate elements
+    -Multiple of the layers for time complexity, still O(log(n))
+    
+-Number the node from top to bottom, left to right
+-Find the left and right of the node
+-Left(x) = 2x+1
+-Right(x) = 2x+2
+-Parent = (x-1)//2
+-Heap is a specific implementation of a priority queue
+-Still using array as the data structure
+
+-Inserting and removing item from a heap would implement a O(nlog(n)) sort

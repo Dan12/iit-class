@@ -1,0 +1,42 @@
+f(n) = O(g(n))
+g*c sets an upper bound on f as n gets large
+f = O(g) does not imply tight asymtotic bound
+
+c1*g(n) <= f(n) <= c2*g(n)
+
+big theta
+
+binary search = O(log(n))
+
+Types of time-complexities
+Constant:
+O(1)
+
+O(m x n) or O(n^3)
+
+n-bit password crack:
+O(2^n)
+
+Common order of growth classes:
+Logarithmic:
+O(log(n))
+Linear:
+O(n)
+Linearithmic:
+O(nlog(n))
+Quadratic:
+O(n^2)
+Cubic:
+O(n^3)
+Polynomial:
+O(n^c)
+Exponential:
+O(c^n)
+Factorial:
+O(n!)
+
+***Grows towards n!***
+
+don't user iterator if you plan to modify iterable
+
+presence of yield makes function a generator

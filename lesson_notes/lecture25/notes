@@ -1,0 +1,20 @@
+Use return values of recursive function to fix things up, non deferred recursive process
+Balanced search tree
+    -trees can get skewed
+    -no cap on heights of subtrees
+    -consider the balance factor (height of left subtree and height of right subtree)
+AVL tree (Adelson Velsky and Landis)
+    -balance factor is always <= 1
+    -recursive requirement (required of root and all subtrees)
+Red black tree: one side is at most twice as long as
+How to balance a bst:
+    -height is level, not number of nodes (highest level reached by a subtree)
+    -essential operation is "rotation"
+    -rotate clockwise:
+        -set current root to root.left.val
+        -set current root.val to new root.right
+        -set old root.left to old root.left.right
+    -zig zag imbalance fixed with two rotations, one to the left and to the right
+    -left imbalance (Straight) solved with right rotation
+    -right imbalance (Straight) solved with left rotation
+    -right left or left right imbalance solved with two rotations

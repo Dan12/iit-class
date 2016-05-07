@@ -1,0 +1,44 @@
+Linked list implementation
+    -node: val, prior, next
+    -first prepend: set head to new and next and prior to self
+    -other prepend: make new node with next head and prior head prior and link two nodes around it to the node
+    -sentinal node
+    
+Node stack:
+    -node: val next
+    -init: top = none
+    -push: top = Node(next=top)
+    
+Node Queue:
+    -head and tail, enter tail and leave head
+    -links point from head to tail
+    
+Heaps:
+    -array backed heirarchical data structure
+    -complete tree (left to right)
+    -root of tree is greater than all values in subtrees
+    -binary tree (two children)
+    -left to right, top to bottom -> store in array
+    -root: (n-1)//2, children: n*2+(1 || 2)
+    -bubble/trickle up, until parent is larger than children
+    -delete: remove the last element and trickle down until parent larger than children
+    -heapify: trickle down
+    
+Binary search trees:
+    -left less, right greater, only unique values
+    -unbalanced: time complexity is closer to that of a linked list
+    
+AVL trees:
+    -maintain a balance factor of 1
+    -time complexity: log(N)
+    
+Overhead: 
+    -array-little overhead but problems with insertion
+    -adding to space complexity -> get more time performance
+    -keep in mind time and space complexity
+    -persistant data structures (history), could become important
+    -tail recursion
+
+Deffered vs non-deffered:
+    -non-deffered recursion: tail recursion
+    -deffered: calculation coming out of stack

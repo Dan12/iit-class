@@ -1,0 +1,37 @@
+recursive processes
+    -deferred: performs computaions after the recursive process is done, operation happens on the way out
+    -iterative: tail recursive, all the work on down on the way down (prior to recursive call)
+recursive calls
+    -direct recursive calls: function called within itself
+    -indirect recursive call: function calls another function that calls the original function
+Comp Sci: stack grows downwards
+Stack trace
+    -top most line: original call
+    -shows next call
+Debuging in python notebook
+    -magic commands
+    -%debug in next cell after exception
+        -drop you into the stack frame where the error took place
+        -args: arguments in that current stack frame
+        -l: shows the line where error occured
+        -p <var>: print variable
+        -up [<ammount>]: move up the stack (stack grows downwards), top of stack is original call, down one gets you the first recursive call
+        -down [<ammount>]: mov down the stack
+        -any exception is caught by the debugger
+    -debug in the middle: set a break point in python
+        -import pdb ; pdb.set_trace() -> start debuger
+        -activate debuging at this point
+        -shows debugger console
+        -c: continue
+        -n: step through to next call
+        -retval: shows recent return val
+        -pdb library works in regular python code
+        -until <args>: run until certain line number
+Every function call requires that all data is stored on the stack, has associated stack frame
+Recursive Linked List
+    -length function: argument is a node
+        -0 if n==None
+        -else 1+length(node.next)
+        -use as recursive helper function
+
+        

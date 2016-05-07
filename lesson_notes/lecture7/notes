@@ -1,0 +1,2 @@
+sorted key: extract comparison key from list element
+single underscore, convention for private function, can still access outside class

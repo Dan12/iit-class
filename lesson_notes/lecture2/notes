@@ -1,0 +1,24 @@
+compound types
+    -sequences: ordered, indexable collections of zero or more values
+    heterogeneous/homogeneuos
+    immutable/mutable
+    common sequence operations; method calls, global calls
+        -String
+        -List
+        -Tuple
+        -Range
+    -set
+    -mappings
+        -dictionary
+        
+Strings
+    -are immutable
+    -sequences of characters
+    
+List
+    -mutable
+    -heterogeneous
+    -sequence
+    
+For
+    -iterates over iterable types(sequences, strings)

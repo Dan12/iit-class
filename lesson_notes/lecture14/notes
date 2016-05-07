@@ -1,0 +1,23 @@
+numbers are objects in python
+lists contain references to other objects
+isinstance(f, Foo)
+    - is instace of class and super classes
+    
+linked lists
+    - seperate individual linked together storage mechanism
+    - create tree with left and right
+        - [ , 'A' , ]
+           v       V
+        [  ,B, ]  [ ,'B', ]
+    - free to put new link in chain anywhere with constant time
+    
+    - Class node, inside linked list, clearly part of linked list class
+    - Node class: value and next attirbute
+    - Prepend time complexity: O(1)
+    - Append time complexity: O(n)
+    - Need to find end of list
+    
+Circular List
+     - tail.next equal to head
+     - head always refer to last node as prior
+     - eliminate edge cases with sentinal node

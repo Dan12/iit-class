@@ -1,0 +1,16 @@
+Binary tree
+    -heap structure is a binary tree, used an array
+    -want total ordering and maintain the order efficientely
+    -need to use heirarchical data structure
+    -the structure is defined recursively
+    -root node is empty or contains a value and has references to a left and right sub tree
+    -a tree can be none/empty
+Binary search tree
+    -implement binary search outside of an array/list
+    -value at every node is greater than all values in the left subtree and less than the values in the right subtree
+    -empty tree is binary search tree
+    -can't use array backed implementation: not complete tree, 
+    -good idea, but if they are not balanced they don't give the time complexity we want
+    -balanced tree has same find time complexity as binary search
+    -traverse the tree: stack or queue to remember where you have been
+    -can replace stacks and queues with recursion (careful with stack overflowing)

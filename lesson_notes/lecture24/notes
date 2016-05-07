@@ -1,0 +1,15 @@
+binary search trees
+    -recursive binary functions
+    -adding: start at the top and compare, move down the tree until we get to none
+        -new node will be a leaf
+        -same proceedure for find
+        -make sure parent links to that node
+persitent data structure
+    -previous versions of data structure are available/in memory
+    -useful when dealing with concurrency as it has weird consequences
+    -allows you to roll back data structure
+bst deletion
+    -if we delete node with 2 children, can choose
+        -make new vale the smallest value of the right bst or the largest value of the left bst
+    -strategy: move once to left and then move right until right is none
+        -replace this value with deleted value and link around that replacement node

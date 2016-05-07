@@ -1,0 +1,31 @@
+infix to postfix:
+numbers are in the same order that they appear in expression
+emit operands in terms of order of precendence
+    - 2 * (3 + 2 + 1) + 3 * 2
+    - 2 3 2 1 + + * 3 2 * +
+    - push *
+    - open parense higher order of precendence, push (
+    - push +
+    - push +
+    - close parense, pop until (
+    - + is lower than *, pop * and push +
+    - * is higher than +, emit *
+    - at the end, pop all remaining
+    
+maze solving:
+decends very deep
+backtracks to previous decision
+depth first search
+goes very deep before figuring out it is wrong
+stack is a depth first search approach
+
+alternate approach:
+can try and cast a wide net
+need a first in first out data storage
+queue:
+    - first in first out data structure
+    - get in at end, get out at front
+    - enqueue and dequeue
+    - dequeue from the head
+    - enqueue onto the tail
+breadth first search, casting a broad net

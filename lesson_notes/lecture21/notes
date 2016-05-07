@@ -1,0 +1,33 @@
+Recursion
+-recursion becomes an increasingly elegant way to implement data structures
+-recursive shapes
+    -recursive process has a shape (linear and tree)
+-iteration implies a looping definition
+-recursive function calls itself one or more times
+-factorial
+    -mathematical definition: recurrance in the definition, implementation in the definition
+    -single recursive call
+    -recursive process
+        -f(5) = 5*(4*(3*(2*(1*1))))
+        -adding one more operation for each call
+        -carrying out N computations, linear process
+        -linear recursive process, each level tacks on a constant number of operations
+        -application of operations happen after the very last call
+        -deferred operations->deferring them until later
+-fibonacci sequence
+    -two special cases and recurrance fib(n-1)+fib(n-2) n>1
+    -tree recursion, two recursive calls in one recursive call
+    -memoization: cache value of function, DP approach
+    -recursive process
+        -tree/heirarchical recursive process
+        -doubling width of tree for each increase in n, exponential growth
+        -plus operation has to be applied on the way up
+        -must be deferred operations
+-Deferred vs iterative process
+    -possible to translate deferred operations to non-deferred operations
+    -performing tail recursion, carry operation going down
+    -factorial
+        -have answer within the call, iterative process
+    -in python it makes no difference, python does not perform tail call optimization
+    -tail call optimization turns tail recursive processes into iterative loop
+-Recursion implemented using a call stack

@@ -1,0 +1,17 @@
+data storage mechanism
+arraylist
+    - indexing: O(1)
+    - search (unsorted): O(n)
+    - search (sorted): O(log_2(n))
+    - append: O(1) -- depends on the underlying array implementation (grow list in memory, amortized time complexity, in the long run = O(1))
+    - insertion: O(n)
+    - deletion: O(n)
+    
+Access things in a sequence
+good for inserting things at the end
+not good for only inserting at begining, not a good data structure
+not good data structure for arbitrary insertions and deletions
+arrays need to be contiguously allocated, to add to arrays together, have to physically move them next to each other
+
+linked lists
+list referring to other lists
